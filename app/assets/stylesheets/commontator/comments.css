@@ -1,0 +1,181 @@
+.comment {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+
+/*Borders width are changed from 1px to 2px~yj*/
+  border-top: 2px solid;
+  border-left: 2px solid;
+/*Added the following 2 lines so that comments can be easily distinguished by borders~yj*/  
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: #000;
+  border-color: #DDD;
+  background-color: #FFF;
+
+/*Added so that comments are aligned with statuses~yj
+-------------------------------------------------------*/ 
+  min-height: 1px;
+  margin-left: 100px;
+  margin-right: 100px;
+/*-----------------------------------------------------*/
+ 
+  clear: both;
+}
+
+.comment_actions {
+  float: right;
+}
+
+.comment_body {
+  
+  padding-top: 3px;
+}
+
+.comment_body p {
+	
+/*border-top: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: #DDD; */  /*Remove comments if necessary~yj*/
+ 
+  margin: 0px;
+ 	overflow: hidden;
+}
+
+.comment_div {
+	clear: both;
+}
+
+.comment_form_actions {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  /*-----------------------------------------------------------------------------------------------------------*/
+  width: 141%;  /*changed from 100% to 141% so that it is perfectly aligned with the comment form ~yj */
+  /*Added so that comments are aligned with statuses~yj*/ 
+  min-height: 1px;
+  margin-left: 79px;
+  margin-right: 100px;
+  
+/*-------------------------------------------------------------------------------------------------------------*/
+}
+
+.comment_form_field textarea {
+  padding: 0px;
+  /*-----------------------------------------------------------------------------------------------------------*/
+  width: 141%;  /*changed from 100% to 141% so that it is perfectly aligned with comments and status boxes ~yj */
+  /*Added so that comments are aligned with statuses~yj*/ 
+  min-height: 1px;
+  margin-left: 81px;
+  margin-right: 100px;
+  
+/*-------------------------------------------------------------------------------------------------------------*/
+}
+
+.comment_avatar {
+  float: left;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.comment_timestamp {
+  color: #666; 
+ /* min-height: 1px;
+  margin-left: 69px;
+  margin-right: 100px;*/
+   float: left;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.comment_votes {
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  text-align: center;
+}
+
+.comment_votes input,
+.comment_votes img {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+
+.comment_votes form {
+  margin: 0px;
+}
+
+.comment_upvote {
+  display: block;
+  height: 18px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.comment_downvote {
+  display: block;
+  height: 18px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.comment_like {
+  float: left;
+}
+
+.comment_like + .comment_vote_count {
+  float: right;
+}
+
+.comment_error_explanation {
+  margin-bottom: 10px;
+}
+
+.comment_error_explanation h3 {
+  margin-top: 5px;
+}
+
+.comment_error_explanation ul {
+  list-style-position: inside;
+}
+
+.comment_commontator {
+/*color: rgb(12, 26, 164); ~yj */
+ /* color: #000;
+  font-size: 13px;
+   min-height: 1px;
+  margin-left: 69px;
+  margin-right: 100px;
+  */
+   float: left;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+  
+ 
+
+
+

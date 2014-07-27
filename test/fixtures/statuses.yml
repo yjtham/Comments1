@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyText
+  user: kelvin
+two:
+  content: MyText
+  user: kelvin
+  # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: "asd"
+  user: kelvin1
+two:
+  content: "asd"
+  user: kelvin1
